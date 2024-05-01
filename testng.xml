@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ConfigurationDriver.Listener"/>
+    </listeners>
+    <test name="SubmitOrderTest">
+        <classes>
+            <class name="TestCases.SubmitOrder"/>
+        </classes>
+    </test>
+    <test name="ErrorValidationTest">
+        <classes>
+            <class name="TestCases.ErrorValidation"/>
+        </classes>
+    </test>
+</suite>
