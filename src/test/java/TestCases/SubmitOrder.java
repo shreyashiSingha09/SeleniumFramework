@@ -22,7 +22,7 @@ public class SubmitOrder extends BaseTest {
         productCatalogue.addPrdToCart(input.get("productName"));
         //We call the goToCartPage() using child class
         productCatalogue.goToCartPage();
-
+        //new comment added
         //Create object CartPage and call the method
         CartPage pages = new CartPage(driver);
         boolean match = pages.verifyProductValue(input.get("productName"));
